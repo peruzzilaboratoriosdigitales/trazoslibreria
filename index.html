@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trazos Librería | Impresiones, Fotocopias y Anillados en B° Ciudadela</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* ESTILOS INLINE MÍNIMOS PARA VISUALIZACIÓN INMEDIATA (TEMPORAL) */
+        body { font-family: 'Quicksand', sans-serif; margin: 0; background-color: #f7f7f7; color: #333; }
+        .bg-light-salmon { background-color: #ffe0b2; } /* Salmón/Naranja Claro */
+        .text-dark { color: #333; }
+        .text-accent { color: #ff9800; } /* Naranja vivo (similar al del lápiz) */
+        .btn-cta { background-color: #ff9800; color: #ffffff; padding: 12px 25px; border: none; cursor: pointer; text-transform: uppercase; font-weight: 700; border-radius: 5px; text-decoration: none; transition: background-color 0.3s; }
+        .btn-cta:hover { background-color: #fb8c00; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { padding: 20px 0; border-bottom: 1px solid #ffcc80; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        nav ul { list-style: none; display: flex; gap: 30px; }
+        nav a { color: #333; text-decoration: none; font-weight: 700; }
+        .hero { text-align: center; padding: 120px 0; background-color: #fff3e0; /* Fondo crema muy claro */ }
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        h2 { font-size: 2rem; text-align: center; margin-bottom: 40px; border-bottom: 2px solid #ff9800; display: inline-block; padding-bottom: 5px; }
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; text-align: center; }
+        .service-item { background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        .service-item i { font-size: 3rem; margin-bottom: 15px; color: #ff9800; }
+        .contact-box { background-color: #fff3e0; padding: 50px; border-radius: 8px; text-align: center; margin-top: 60px; }
+        footer { text-align: center; padding: 30px 0; background-color: #ffcc80; color: #333; }
+        .logo-text { font-size: 2.2rem; font-weight: 900; }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-text text-dark">TRAZO'S <span class="text-accent">LIBRERÍA</span></div>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="https://wa.me/5493513403714" target="_blank" class="text-accent">WhatsApp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="text-dark">Todo lo que tu <span class="text-accent">Trabajo</span> y <span class="text-accent">Estudio</span> Necesitan.</h1>
+            <p style="font-size: 1.5rem; margin-bottom: 30px;">Tu centro de impresiones, copias y anillados en **B° Ciudadela**.</p>
+            <a href="tel:3513403714" class="btn-cta"><i class="fas fa-phone"></i> Llámanos Ahora: 351-3403714</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="container">
+        <h2 class="text-dark">Nuestros Servicios Principales</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i class="fas fa-print"></i>
+                <h3 class="text-dark">Impresiones Rápidas</h3>
+                <p>Impresión blanco/negro y color. ¡Envíanos tu archivo y retíralo listo!</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-copy"></i>
+                <h3 class="text-dark">Fotocopias</h3>
+                <p>Copias de alta calidad y grandes volúmenes. Ideales para apuntes y documentos.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-book-open"></i>
+                <h3 class="text-dark">Anillados Profesionales</h3>
+                <p>Protege tus trabajos y apuntes con anillados resistentes y de excelente terminación.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 60px;">
+            <p style="font-size: 1.2rem;">Además, contamos con toda la papelería, útiles y artículos de librería que puedas necesitar.</p>
+            <a href="#contacto" class="btn-cta" style="background-color: #38bdf8; margin-top: 10px;">Pregunta por otros artículos</a> </div>
+    </section>
+
+    <section id="contacto" class="container">
+        <div class="contact-box">
+            <h2 class="text-dark" style="border: none;">¡Contáctanos y Ubícanos!</h2>
+            
+            <div style="display: flex; justify-content: center; gap: 50px; margin-bottom: 30px;">
+                <div>
+                    <i class="fas fa-phone text-accent" style="font-size: 2rem;"></i>
+                    <h3 class="text-dark">Teléfono / WhatsApp</h3>
+                    <p style="font-size: 1.3rem; font-weight: 700;" class="text-accent">351-3403714</p>
+                    <a href="https://wa.me/5493513403714" target="_blank" class="btn-cta">Enviar Mensaje</a>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt text-accent" style="font-size: 2rem;"></i>
+                    <h3 class="text-dark">Dirección</h3>
+                    <p style="font-size: 1.3rem; font-weight: 700;">Tenerife 3175</p>
+                    <p>Barrio Ciudadela, [Ciudad/Provincia]</p>
+                    <a href="#" class="text-accent" style="text-decoration: none;">Ver en el Mapa</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="bg-light-salmon">
+        <p>&copy; 2025 Trazos Librería. Impresiones, Fotocopias y Anillados.</p>
+        <p>Servicio Local en Tenerife 3175 B° Ciudadela.</p>
+    </footer>
+</body>
+</html>
